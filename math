@@ -1,0 +1,12 @@
+import random
+
+
+def question():
+  
+  attempts = 4
+  ca = 0
+  while attempts > 0:
+    a = random.choice(range(1,10))
+    b = random.choice(range(1,10))
+    d = a + b
+    print(str(a) + "
