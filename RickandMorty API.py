@@ -1,3 +1,5 @@
+#walkthrough with John Watson Rooney 'https://www.youtube.com/watch?v=-oPuGc05Lxs'
+
 import requests
 import pandas as pd
 
@@ -35,7 +37,7 @@ df = pd.DataFrame(mainlist)
 
 df.to_csv(charlist.csv', index=False)
 
-#print(parse_json(data))
+
 
 
 
